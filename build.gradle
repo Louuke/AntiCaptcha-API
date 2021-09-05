@@ -1,12 +1,11 @@
 plugins {
-    id 'com.github.johnrengelman.shadow' version '7.0.0'
-    id 'maven-publish'
     id 'java'
+    id 'maven-publish'
 }
 
 publishing {
     publications {
-        mavenJava(MavenPublication) {
+        maven(MavenPublication) {
             groupId = 'com.anticaptcha'
             artifactId = 'library'
             version = '1.0-SNAPSHOT'
@@ -15,9 +14,6 @@ publishing {
         }
     }
 }
-
-group 'com.anticaptcha'
-version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
