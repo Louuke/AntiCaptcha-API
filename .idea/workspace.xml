@@ -5,10 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c23b868-4897-435b-8bdc-f98f425b71c9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/AntiCaptcha$ProxyTypeOption.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/AntiCaptcha.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/FunCaptcha.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/FunCaptchaProxyless.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/GeeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/GeeTestProxyless.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/HCaptcha.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/HCaptchaProxyless.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/ImageToText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2Enterprise.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2EnterpriseProxyless.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2Proxyless.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV3Proxyless.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/AppStats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/QueueStats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/SendFunds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/SpendingStats.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/AppStatsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/BalanceResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/QueueStatsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/ReportResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/SendFundsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/SpendingStatsResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/TaskResult$Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/TaskResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/utils/SolutionData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/AntiCaptcha-1.0-SNAPSHOT-all.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -44,7 +84,7 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AntiCaptcha" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -72,6 +112,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
