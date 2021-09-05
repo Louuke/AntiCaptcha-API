@@ -3,6 +3,14 @@ plugins {
     id 'java'
 }
 
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'com.anticaptcha.Main'
+        )
+    }
+}
+
 group 'com.anticaptcha'
 version '1.0-SNAPSHOT'
 
