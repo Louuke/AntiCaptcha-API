@@ -3,7 +3,6 @@ package com.anticaptcha.api.captcha;
 import com.anticaptcha.api.AntiCaptcha;
 import com.anticaptcha.api.response.TaskResult;
 
-import java.net.URL;
 import java.util.HashMap;
 
 public class HCaptchaProxyless extends AntiCaptcha {
