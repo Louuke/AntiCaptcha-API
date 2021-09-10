@@ -11,8 +11,9 @@ public class QueueStats extends AntiCaptcha {
         super(clientKey, 0);
     }
 
-    public void setQueueId(int queueId) {
+    public QueueStats setQueueId(int queueId) {
         this.queueId = queueId;
+        return this;
     }
 
     @Override

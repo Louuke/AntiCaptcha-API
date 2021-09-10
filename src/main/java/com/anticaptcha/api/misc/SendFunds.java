@@ -12,16 +12,19 @@ public class SendFunds extends AntiCaptcha {
         super(clientKey, 0);
     }
 
-    public void setAccountLogin(String accountLogin) {
+    public SendFunds setAccountLogin(String accountLogin) {
         this.accountLogin = accountLogin;
+        return this;
     }
 
-    public void setAccountEmail(String accountEmail) {
+    public SendFunds setAccountEmail(String accountEmail) {
         this.accountEmail = accountEmail;
+        return this;
     }
 
-    public void setAmount(double amount) {
+    public SendFunds setAmount(double amount) {
         this.amount = amount;
+        return this;
     }
 
     @Override

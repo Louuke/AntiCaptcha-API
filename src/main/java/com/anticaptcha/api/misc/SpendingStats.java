@@ -12,16 +12,19 @@ public class SpendingStats extends AntiCaptcha {
         super(clientKey, 0);
     }
 
-    public void setDate(int date) {
+    public SpendingStats setDate(int date) {
         this.date = date;
+        return this;
     }
 
-    public void setQueue(String queue) {
+    public SpendingStats setQueue(String queue) {
         this.queue = queue;
+        return this;
     }
 
-    public void setIp(String ip) {
+    public SpendingStats setIp(String ip) {
         this.ip = ip;
+        return this;
     }
 
     @Override

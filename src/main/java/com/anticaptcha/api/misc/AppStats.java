@@ -11,8 +11,9 @@ public class AppStats extends AntiCaptcha {
         super(clientKey, softId);
     }
 
-    public void setMode(String mode) {
+    public AppStats setMode(String mode) {
         this.mode = mode;
+        return this;
     }
 
     @Override

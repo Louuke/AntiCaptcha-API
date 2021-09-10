@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c23b868-4897-435b-8bdc-f98f425b71c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/anticaptcha/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/AppStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/AppStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/QueueStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/QueueStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SendFunds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SendFunds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SpendingStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SpendingStats.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +39,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="AntiCaptcha" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AntiCaptcha" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -79,7 +83,7 @@
       <recent name="com.anticaptcha" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test Main">
+  <component name="RunManager" selected="Gradle.AntiCaptcha-API [build]">
     <configuration name="Test Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.anticaptcha.Main" />
       <module name="AntiCaptcha.test" />
@@ -155,9 +159,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AntiCaptcha-API [build]" />
         <item itemvalue="Application.Test Main" />
         <item itemvalue="Gradle.AntiCaptcha-API [shadowJar]" />
-        <item itemvalue="Gradle.AntiCaptcha-API [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -182,5 +186,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
