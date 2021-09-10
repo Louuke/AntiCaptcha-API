@@ -1,8 +1,8 @@
 # AntiCaptcha-API
- Unofficial AntiCaptcha Java API
- If you don't have an account yet, you can create one **[here](http://getcaptchasolution.com/bqdjn5xlgq)**
+Unofficial AntiCaptcha Java API.
+If you don't have an account yet, you can create one **[here](http://getcaptchasolution.com/bqdjn5xlgq)**
  
- ### Gradle
+### Gradle
 ```java
 allprojects {
     repositories {
