@@ -20,7 +20,7 @@ public class GeeTestProxyless extends AntiCaptcha {
         task.put("type", "GeeTestTaskProxyless");
     }
 
-    public void setWebsiteUrl(URL websiteUrl) {
+    public void setWebsiteUrl(String websiteUrl) {
         task.put("websiteURL", websiteUrl);
     }
 

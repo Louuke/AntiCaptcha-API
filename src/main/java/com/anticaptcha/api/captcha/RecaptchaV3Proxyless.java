@@ -20,7 +20,7 @@ public class RecaptchaV3Proxyless extends AntiCaptcha {
         task.put("type", "RecaptchaV3TaskProxyless");
     }
 
-    public void setWebsiteUrl(URL websiteUrl) {
+    public void setWebsiteUrl(String websiteUrl) {
         task.put("websiteURL", websiteUrl);
     }
 

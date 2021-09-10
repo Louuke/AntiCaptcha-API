@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c23b868-4897-435b-8bdc-f98f425b71c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/AppStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/AppStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/QueueStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/QueueStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SendFunds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SendFunds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SpendingStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SpendingStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/FunCaptchaProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/FunCaptchaProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/GeeTestProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/GeeTestProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/HCaptchaProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/HCaptchaProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2EnterpriseProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2EnterpriseProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2Proxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2Proxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV3Proxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV3Proxyless.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +79,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.12448132" />
     <property name="project.structure.side.proportion" value="0.48502496" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -187,5 +190,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/AntiCaptcha-API" />
+    </ignored-roots>
   </component>
 </project>

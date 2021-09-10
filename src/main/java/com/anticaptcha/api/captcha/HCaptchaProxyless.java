@@ -20,7 +20,7 @@ public class HCaptchaProxyless extends AntiCaptcha {
         task.put("type", "HCaptchaTaskProxyless");
     }
 
-    public void setWebsiteUrl(URL websiteUrl) {
+    public void setWebsiteUrl(String websiteUrl) {
         task.put("websiteURL", websiteUrl);
     }
 

@@ -20,7 +20,7 @@ public class FunCaptchaProxyless extends AntiCaptcha {
         task.put("type", "FunCaptchaTaskProxyless");
     }
 
-    public void setWebsiteUrl(URL websiteUrl) {
+    public void setWebsiteUrl(String websiteUrl) {
         task.put("websiteURL", websiteUrl);
     }
 
