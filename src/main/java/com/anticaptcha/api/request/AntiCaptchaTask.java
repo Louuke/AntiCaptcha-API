@@ -13,6 +13,10 @@ public class AntiCaptchaTask extends AntiCaptchaBase {
         super(clientKey);
     }
 
+    public TaskResult createTask() {
+        return createTask(300);
+    }
+
     public TaskResult createTask(int maxSecTimeout) {
         TaskResult taskResult = query(TaskResult.class);
         if(taskResult.getErrorId() == 0) {

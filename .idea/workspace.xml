@@ -6,17 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c23b868-4897-435b-8bdc-f98f425b71c9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/AntiCaptchaBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/AntiCaptchaBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/AntiCaptchaTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/AntiCaptchaTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/AppStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/AppStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/BalanceStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/BalanceStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/QueueStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/QueueStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/SendFunds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/SendFunds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/SpendingStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/SpendingStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ImageIncorrectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ImageIncorrectRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ReCorrectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ReCorrectRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ReIncorrectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ReIncorrectRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/TaskResultRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/TaskResultRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +178,10 @@
       <option name="presentableId" value="Default" />
       <updated>1630836043817</updated>
       <workItem from="1645281053946" duration="346000" />
-      <workItem from="1645960012196" duration="6252000" />
+      <workItem from="1645960012196" duration="6525000" />
+      <workItem from="1645972926451" duration="13000" />
+      <workItem from="1645979504691" duration="520000" />
+      <workItem from="1645980162472" duration="57000" />
     </task>
     <servers />
   </component>
