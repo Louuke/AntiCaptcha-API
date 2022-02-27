@@ -60,6 +60,10 @@ public class TaskResult {
         return solution;
     }
 
+    public int getTaskId() {
+        return taskId;
+    }
+
     public void setReportInfo(String clientKey, int taskId) {
         this.clientKey = clientKey;
         this.taskId = taskId;
