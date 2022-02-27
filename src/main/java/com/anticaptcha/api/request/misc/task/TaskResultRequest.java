@@ -12,7 +12,7 @@ public class TaskResultRequest extends AntiCaptchaBase {
     }
 
     @Override
-    public String getUrl() {
+    protected String getUrl() {
         return "https://api.anti-captcha.com/getTaskResult";
     }
 }

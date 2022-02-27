@@ -21,12 +21,12 @@ public abstract class AntiCaptchaBase {
         SOCKS5
     }
 
-    public AntiCaptchaBase(String clientKey, int softId) {
+    protected AntiCaptchaBase(String clientKey, int softId) {
         this.clientKey = clientKey;
         this.softId = softId;
     }
 
-    public AntiCaptchaBase(String clientKey) {
+    protected AntiCaptchaBase(String clientKey) {
         this(clientKey, 0);
     }
 
@@ -41,6 +41,12 @@ public abstract class AntiCaptchaBase {
         return createInstance(clazz);
     }
 
+    protected abstract String getUrl();
+
+    private HttpContent getBody() {
+        return ByteArrayContent.fromString("application/json", gson.toJson(this));
+    }
+
     private <T> T createInstance(Class<T> clazz) {
         try {
             return clazz.getConstructor().newInstance();
@@ -48,11 +54,5 @@ public abstract class AntiCaptchaBase {
             e.printStackTrace();
         }
         return null;
-    }
-
-    public abstract String getUrl();
-
-    private HttpContent getBody() {
-        return ByteArrayContent.fromString("application/json", gson.toJson(this));
     }
 }

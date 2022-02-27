@@ -18,7 +18,7 @@ public class ReCorrectRequest extends AntiCaptchaBase {
     }
 
     @Override
-    public String getUrl() {
+    protected String getUrl() {
         return "https://api.anti-captcha.com/reportCorrectRecaptcha";
     }
 }

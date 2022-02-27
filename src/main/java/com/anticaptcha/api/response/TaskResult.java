@@ -24,10 +24,6 @@ public class TaskResult {
         return errorId;
     }
 
-    public int getTaskId() {
-        return taskId;
-    }
-
     public int getCreateTime() {
         return createTime;
     }
