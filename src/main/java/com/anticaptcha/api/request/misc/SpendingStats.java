@@ -1,15 +1,19 @@
-package com.anticaptcha.api.misc;
+package com.anticaptcha.api.request.misc;
 
-import com.anticaptcha.api.AntiCaptcha;
+import com.anticaptcha.api.request.AntiCaptchaBase;
 import com.anticaptcha.api.response.SpendingStatsResponse;
 
-public class SpendingStats extends AntiCaptcha {
+public class SpendingStats extends AntiCaptchaBase {
 
     private int date;
     private String queue, ip;
 
+    public SpendingStats(String clientKey, int softId) {
+        super(clientKey, softId);
+    }
+
     public SpendingStats(String clientKey) {
-        super(clientKey, 0);
+        super(clientKey);
     }
 
     public SpendingStats setDate(int date) {
@@ -27,8 +31,12 @@ public class SpendingStats extends AntiCaptcha {
         return this;
     }
 
-    @Override
     public SpendingStatsResponse getSpendingStats() {
-        return super.getSpendingStats();
+        return query(SpendingStatsResponse.class);
+    }
+
+    @Override
+    public String getUrl() {
+        return "https://api.anti-captcha.com/getQueueStats";
     }
 }

@@ -6,14 +6,6 @@ plugins {
 group 'com.anticaptcha'
 version '1.0-SNAPSHOT'
 
-publishing {
-    publications {
-        maven(MavenPublication) {
-            from components.java
-        }
-    }
-}
-
 repositories {
     mavenCentral()
 }
@@ -31,4 +23,12 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
 }

@@ -1,9 +1,7 @@
-package com.anticaptcha.api.captcha;
+package com.anticaptcha.api.request.captcha;
 
 import java.net.InetAddress;
-import java.net.URL;
 import java.net.UnknownHostException;
-import java.util.HashMap;
 
 public class GeeTest extends GeeTestProxyless {
 

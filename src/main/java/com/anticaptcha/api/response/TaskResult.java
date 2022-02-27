@@ -1,15 +1,19 @@
 package com.anticaptcha.api.response;
 
-import com.anticaptcha.api.AntiCaptcha;
+import com.anticaptcha.api.request.misc.task.ImageIncorrectRequest;
+import com.anticaptcha.api.request.misc.task.ReCorrectRequest;
+import com.anticaptcha.api.request.misc.task.ReIncorrectRequest;
 import com.anticaptcha.api.response.utils.SolutionData;
 
 public class TaskResult {
 
-    private int errorId, taskId, createTime, endTime, solveCount;
+    private int errorId, createTime, endTime, solveCount;
     private double cost;
-    private String errorCode, errorDescription, status, ip;
+    private String errorCode, errorDescription, status = "error", ip;
     private SolutionData solution;
-    private AntiCaptcha captchaBase;
+
+    private transient String clientKey;
+    private transient int taskId;
 
     public enum Response {
         PROCESSING,
@@ -60,23 +64,23 @@ public class TaskResult {
         return solution;
     }
 
-    public void setTaskId(int taskId) {
+    public void setReportInfo(String clientKey, int taskId) {
+        this.clientKey = clientKey;
         this.taskId = taskId;
     }
 
-    public void setCaptchaBase(AntiCaptcha captchaBase) {
-        this.captchaBase = captchaBase;
-    }
-
     public ReportResponse reportCorrectRecaptcha() {
-        return captchaBase.report("https://api.anti-captcha.com/reportCorrectRecaptcha", taskId);
+        ReCorrectRequest correctRequest = new ReCorrectRequest(clientKey, taskId);
+        return correctRequest.report();
     }
 
     public ReportResponse reportIncorrectRecaptcha() {
-        return captchaBase.report("https://api.anti-captcha.com/reportIncorrectRecaptcha", taskId);
+        ReIncorrectRequest incorrectRequest = new ReIncorrectRequest(clientKey, taskId);
+        return incorrectRequest.report();
     }
 
     public ReportResponse reportIncorrectImageCaptcha() {
-        return captchaBase.report("https://api.anti-captcha.com/reportIncorrectImageCaptcha", taskId);
+        ImageIncorrectRequest incorrectRequest = new ImageIncorrectRequest(clientKey, taskId);
+        return incorrectRequest.report();
     }
 }

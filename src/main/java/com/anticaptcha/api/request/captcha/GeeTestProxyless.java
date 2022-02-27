@@ -1,11 +1,10 @@
-package com.anticaptcha.api.captcha;
+package com.anticaptcha.api.request.captcha;
 
-import com.anticaptcha.api.AntiCaptcha;
-import com.anticaptcha.api.response.TaskResult;
+import com.anticaptcha.api.request.AntiCaptchaTask;
 
 import java.util.HashMap;
 
-public class GeeTestProxyless extends AntiCaptcha {
+public class GeeTestProxyless extends AntiCaptchaTask {
 
     final HashMap<String, Object> task = new HashMap<>();
 
@@ -37,15 +36,5 @@ public class GeeTestProxyless extends AntiCaptcha {
 
     public void setGeeTestLib(String geeTestLib) {
         task.put("geetestGetLib", geeTestLib);
-    }
-
-    @Override
-    public TaskResult createTask() {
-        return super.createTask();
-    }
-
-    @Override
-    public TaskResult createTask(int maxSecTimeout) {
-        return super.createTask(maxSecTimeout);
     }
 }

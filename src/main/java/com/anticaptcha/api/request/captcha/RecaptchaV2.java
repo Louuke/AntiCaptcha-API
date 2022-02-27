@@ -1,18 +1,21 @@
-package com.anticaptcha.api.captcha;
+package com.anticaptcha.api.request.captcha;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-public class RecaptchaV2Enterprise extends RecaptchaV2EnterpriseProxyless {
+public class RecaptchaV2 extends RecaptchaV2Proxyless {
 
-    public RecaptchaV2Enterprise(String clientKey) {
-        super(clientKey, 0);
-        task.put("type", "RecaptchaV2EnterpriseTask");
+    private String cookies, proxyLogin, proxyPassword, userAgent, proxyAddress, proxyType;
+    private int proxyPort;
+
+    public RecaptchaV2(String clientKey) {
+        super(clientKey);
+        task.put("type", "RecaptchaV2Task");
     }
 
-    public RecaptchaV2Enterprise(String clientKey, int softId) {
+    public RecaptchaV2(String clientKey, int softId) {
         super(clientKey, softId);
-        task.put("type", "RecaptchaV2EnterpriseTask");
+        task.put("type", "RecaptchaV2Task");
     }
 
     public void setCookies(String cookies) {

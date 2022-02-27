@@ -1,16 +1,15 @@
-package com.anticaptcha.api.captcha;
+package com.anticaptcha.api.request.captcha;
 
-import com.anticaptcha.api.AntiCaptcha;
-import com.anticaptcha.api.response.TaskResult;
+import com.anticaptcha.api.request.AntiCaptchaTask;
 
 import java.util.HashMap;
 
-public class RecaptchaV2EnterpriseProxyless extends AntiCaptcha {
+public class RecaptchaV2EnterpriseProxyless extends AntiCaptchaTask {
 
     final HashMap<String, Object> task = new HashMap<>();
 
     public RecaptchaV2EnterpriseProxyless(String clientKey) {
-        super(clientKey, 0);
+        super(clientKey);
         task.put("type", "RecaptchaV2EnterpriseTaskProxyless");
     }
 
@@ -31,15 +30,5 @@ public class RecaptchaV2EnterpriseProxyless extends AntiCaptcha {
         HashMap<String, String> h = new HashMap<>();
         h.put(name, payload);
         task.put("enterprisePayload", h);
-    }
-
-    @Override
-    public TaskResult createTask() {
-        return super.createTask();
-    }
-
-    @Override
-    public TaskResult createTask(int maxSecTimeout) {
-        return super.createTask(maxSecTimeout);
     }
 }

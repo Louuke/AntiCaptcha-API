@@ -1,11 +1,10 @@
-package com.anticaptcha.api.captcha;
+package com.anticaptcha.api.request.captcha;
 
-import com.anticaptcha.api.AntiCaptcha;
-import com.anticaptcha.api.response.TaskResult;
+import com.anticaptcha.api.request.AntiCaptchaTask;
 
 import java.util.HashMap;
 
-public class FunCaptchaProxyless extends AntiCaptcha {
+public class FunCaptchaProxyless extends AntiCaptchaTask {
 
     final HashMap<String, Object> task = new HashMap<>();
 
@@ -33,15 +32,5 @@ public class FunCaptchaProxyless extends AntiCaptcha {
 
     public void setDataBlob(String dataBlob) {
         task.put("data", dataBlob);
-    }
-
-    @Override
-    public TaskResult createTask() {
-        return super.createTask();
-    }
-
-    @Override
-    public TaskResult createTask(int maxSecTimeout) {
-        return super.createTask(maxSecTimeout);
     }
 }

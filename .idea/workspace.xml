@@ -5,11 +5,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c23b868-4897-435b-8bdc-f98f425b71c9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/AntiCaptchaBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/AntiCaptchaTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/BalanceStats.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ImageIncorrectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ReCorrectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/ReIncorrectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/task/TaskResultRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/AntiCaptcha.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/AntiCaptcha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/FunCaptcha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/FunCaptchaProxyless.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/GeeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/GeeTestProxyless.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/HCaptcha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/HCaptchaProxyless.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/ImageToText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2Enterprise.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2EnterpriseProxyless.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV2Proxyless.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/captcha/RecaptchaV3Proxyless.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/AppStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/QueueStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/SendFunds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/misc/SpendingStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/TaskResult$Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/TaskResult$Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/TaskResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/anticaptcha/api/response/TaskResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/com/anticaptcha/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/com/anticaptcha/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/AntiCaptcha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/FunCaptcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/FunCaptcha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/FunCaptchaProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/FunCaptchaProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/GeeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/GeeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/GeeTestProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/GeeTestProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/HCaptcha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/HCaptcha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/HCaptchaProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/HCaptchaProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/ImageToText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/ImageToText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/RecaptchaV2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2Enterprise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/RecaptchaV2Enterprise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2EnterpriseProxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/RecaptchaV2EnterpriseProxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV2Proxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/RecaptchaV2Proxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/captcha/RecaptchaV3Proxyless.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/captcha/RecaptchaV3Proxyless.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/AppStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/AppStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/QueueStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/QueueStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SendFunds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/SendFunds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/misc/SpendingStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/request/misc/SpendingStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/response/TaskResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/anticaptcha/api/response/TaskResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/anticaptcha/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/anticaptcha/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +127,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CoinMarketCapLoyalty" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.12448132" />
     <property name="project.structure.side.proportion" value="0.48502496" />
@@ -86,8 +137,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.anticaptcha" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.anticaptcha.api.request.misc.task" />
+    </key>
   </component>
-  <component name="RunManager" selected="Gradle.AntiCaptcha-API [build]">
+  <component name="RunManager" selected="Application.Test Main">
     <configuration name="Test Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.anticaptcha.Main" />
       <module name="AntiCaptcha.test" />
@@ -178,6 +232,7 @@
       <option name="presentableId" value="Default" />
       <updated>1630836043817</updated>
       <workItem from="1645281053946" duration="346000" />
+      <workItem from="1645960012196" duration="4999000" />
     </task>
     <servers />
   </component>

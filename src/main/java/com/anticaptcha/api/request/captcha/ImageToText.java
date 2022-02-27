@@ -1,16 +1,15 @@
-package com.anticaptcha.api.captcha;
+package com.anticaptcha.api.request.captcha;
 
-import com.anticaptcha.api.AntiCaptcha;
-import com.anticaptcha.api.response.TaskResult;
+import com.anticaptcha.api.request.AntiCaptchaTask;
 
 import java.util.HashMap;
 
-public class ImageToText extends AntiCaptcha {
+public class ImageToText extends AntiCaptchaTask {
 
     final HashMap<String, Object> task = new HashMap<>();
 
     public ImageToText(String clientKey) {
-        super(clientKey, 0);
+        super(clientKey);
         task.put("type", "RecaptchaV2EnterpriseTaskProxyless");
     }
 
@@ -53,15 +52,5 @@ public class ImageToText extends AntiCaptcha {
 
     public void setWebsiteURL(String url) {
         task.put("websiteURL", url);
-    }
-
-    @Override
-    protected TaskResult createTask() {
-        return super.createTask();
-    }
-
-    @Override
-    protected TaskResult createTask(int maxSecTimeout) {
-        return super.createTask(maxSecTimeout);
     }
 }

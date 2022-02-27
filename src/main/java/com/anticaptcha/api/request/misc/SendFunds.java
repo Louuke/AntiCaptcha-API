@@ -1,9 +1,9 @@
-package com.anticaptcha.api.misc;
+package com.anticaptcha.api.request.misc;
 
-import com.anticaptcha.api.AntiCaptcha;
+import com.anticaptcha.api.request.AntiCaptchaBase;
 import com.anticaptcha.api.response.SendFundsResponse;
 
-public class SendFunds extends AntiCaptcha {
+public class SendFunds extends AntiCaptchaBase {
 
     private String accountLogin, accountEmail;
     private double amount;
@@ -27,8 +27,12 @@ public class SendFunds extends AntiCaptcha {
         return this;
     }
 
-    @Override
     protected SendFundsResponse sendFunds() {
-        return super.sendFunds();
+        return query(SendFundsResponse.class);
+    }
+
+    @Override
+    public String getUrl() {
+        return "https://api.anti-captcha.com/sendFunds";
     }
 }
