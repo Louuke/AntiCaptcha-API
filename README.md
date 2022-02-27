@@ -13,7 +13,7 @@ allprojects {
 ```
 ```java
 dependencies {
-    implementation 'com.github.JicuNull:AntiCaptcha-API:v1.1'
+    implementation 'com.github.JicuNull:AntiCaptcha-API:28ae3d7'
 }
 ```
 Find more options here: **[Jitpack](https://jitpack.io/JicuNull/AntiCaptcha-API)**
