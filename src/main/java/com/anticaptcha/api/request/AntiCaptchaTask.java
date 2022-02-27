@@ -2,6 +2,7 @@ package com.anticaptcha.api.request;
 
 import com.anticaptcha.api.request.misc.task.TaskResultRequest;
 import com.anticaptcha.api.response.TaskResult;
+import com.google.gson.GsonBuilder;
 
 public class AntiCaptchaTask extends AntiCaptchaBase {
 

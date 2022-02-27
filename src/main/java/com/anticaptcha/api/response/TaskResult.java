@@ -13,7 +13,7 @@ public class TaskResult {
     private SolutionData solution;
 
     private transient String clientKey;
-    private transient int taskId;
+    private int taskId;
 
     public enum Response {
         PROCESSING,
